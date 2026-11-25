@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 
-const string CONN_STR = "Server=EHODHFMASSE;TrustServerCertificate=True;Database=EHODSI_DB;Integrated Security=True";
+const string CONN_STR = "Server=.;TrustServerCertificate=True;Database=EHODSI_DB;Integrated Security=True";
 const decimal SEUIL_BOURSE = 50000m;
 
 // Étapes 1 & 2 : affichage initial des étudiants avec bourse > 50 000, triés par ordre décroissant
